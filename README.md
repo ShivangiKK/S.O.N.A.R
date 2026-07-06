@@ -136,7 +136,7 @@ From this directory:
 streamlit run app.py
 ```
 
-Use `sample_inputs/senior_data_engineer_demo.txt` as a demo case. Paste the sections into the corresponding Streamlit text areas.
+Use `senior_data_engineer_demo.txt` as a demo case. Paste the sections into the corresponding Streamlit text areas.
 
 ## Outputs
 
@@ -184,5 +184,3 @@ Planned extensions include:
 - **Statistical Calibration:** calibrates readiness thresholds and launch estimates using historical recruiting outcomes such as time to shortlist, qualified-candidate rate, response rate, and hiring-manager rejection reasons.
 
 The long-term vision is not to replace recruiters, but to give them an auditable agent ecosystem that improves intake quality, sourcing consistency, and hiring-manager alignment while preserving human control.
-- Add optional integrations with applicant tracking systems after the readiness and approval workflow is validated.
-- Extend downstream modules for sourcing, screening, or matching only after recruiter approval and governance requirements are defined.
