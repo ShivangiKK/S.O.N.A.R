@@ -5,6 +5,7 @@
 Track: **Agents for Business**
 
 S.O.N.A.R. is a recruiter-controlled Sourcing Readiness Agent. It accepts a job description, recruiter intake notes, and optional clarification answers. Gemini creates a structured, evidence-backed sourcing brief, then deterministic Python tools calculate sourcing readiness, classify gaps, route the next action, require recruiter approval, and create a rule-based launch readiness plan.
+This repository contains a Streamlit MVP, sample input, and Colab notebook for the Kaggle/Google Agentic AI capstone submission.
 
 ## Problem
 
@@ -68,13 +69,17 @@ S.O.N.A.R. is not a one-shot LLM summary. The workflow separates agent reasoning
 - **Human-in-the-loop control:** The app cannot approve sourcing automatically. A recruiter must explicitly approve, and approval is blocked if readiness rules say sourcing cannot begin.
 - **Transparent launch planning:** The shortlist estimate is labeled as a prototype rule-based estimate, not a statistical forecast.
 
-## Hackathon Concepts Applied
+## Course Concepts Applied
 
-- **Agent / multi-agent workflow:** Role Intake Agent, Readiness Tool, Approval Router, Human Approval Gate, and Launch Readiness Tool each have separate responsibilities.
-- **Agent skills / tools:** Gemini extraction is combined with deterministic business-rule tools.
-- **Security features:** API keys are read from Streamlit secrets and never hard-coded.
-- **Deployability:** The app is a self-contained Streamlit MVP with a minimal dependency file.
-- **Evaluation-ready design:** The structured schema, evidence count, gap lists, deterministic scores, and routing action make the workflow inspectable and testable.
+S.O.N.A.R. demonstrates the following course concepts required for the capstone:
+
+- **Agent / multi-agent workflow:** The system separates responsibilities across a Role Intake Agent, Readiness Tool, Approval Router, Human Approval Gate, and Launch Readiness Tool.
+- **Agent skills / tools:** Gemini performs structured extraction, while deterministic Python tools calculate readiness, classify gaps, route actions, and create the launch readiness plan.
+- **Structured output:** The app uses Pydantic schemas such as `SourcingBrief`, `ReadinessAssessment`, and `SourcingLaunchPlan`.
+- **Security features:** API keys are read from Streamlit secrets and are never hard-coded.
+- **Deployability:** The app is packaged as a Streamlit MVP with `requirements.txt`, `runtime.txt`, setup instructions, and a sample input.
+- **Evaluation-ready design:** The notebook includes expected-signal checks, reliability checks, state-regression checks, and safety checks.
+- **Human-in-the-loop design:** The agent can recommend the next action, but recruiter approval is required before sourcing launch.
 
 ## Setup
 
