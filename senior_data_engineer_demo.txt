@@ -1,0 +1,57 @@
+JOB DESCRIPTION
+---------------
+Senior Data Engineer
+
+We are looking for a Senior Data Engineer to design and operate
+large-scale data pipelines supporting analytics and machine learning.
+
+Responsibilities:
+- Build reliable batch and real-time data pipelines
+- Work with engineering, analytics, and machine learning teams
+- Improve data quality, reliability, and platform scalability
+
+Minimum qualifications:
+- 5+ years of data engineering or backend engineering experience
+- Strong Python and SQL skills
+- Experience with distributed data-processing systems
+- Experience with cloud infrastructure
+
+Preferred qualifications:
+- Experience with Spark, Kafka, or Flink
+- Experience with Airflow or dbt
+- Experience in fintech or another high-scale technology environment
+
+RECRUITER INTAKE NOTES
+----------------------
+The role sits within the Data Platform team.
+
+The hiring manager prefers a senior candidate but may consider a
+strong mid-level candidate.
+
+Kafka experience is mandatory because the team owns real-time
+data pipelines. Spark or Flink experience is useful, and either
+one is acceptable.
+
+Python and SQL are non-negotiable.
+
+The role can be based in San Francisco or Seattle and follows a
+hybrid working arrangement.
+
+Stripe, Uber, Airbnb, and Block are useful source companies, but
+the manager is open to candidates from other high-scale technology
+companies.
+
+This is a replacement hire with one opening.
+
+Visa sponsorship, compensation, and the target hiring date have
+not yet been confirmed.
+
+During screening, candidates should explain a production data
+pipeline they designed, including its scale, reliability, and
+technical trade-offs.
+
+OPTIONAL CLARIFICATION ANSWERS
+------------------------------
+Visa sponsorship is available for this role.
+The approved compensation range is $170,000 to $215,000 base.
+The target hire date is within 90 days.
