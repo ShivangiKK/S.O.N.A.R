@@ -171,9 +171,18 @@ The app displays:
 
 ## Future Work
 
-- Add evaluation sets for field-level extraction precision, recall, and F1.
-- Calibrate readiness thresholds with historical recruiting outcomes.
-- Add regression checks to ensure later clarification passes preserve earlier useful brief state.
-- Add production monitoring for unsupported claims and protected-trait sourcing criteria.
+S.O.N.A.R. currently focuses on the upstream readiness problem: whether a role is clear enough to source. Future work would extend this into a 'governed SMART sourcing agent ecosystem' after the readiness and approval workflow is validated.
+
+Planned extensions include:
+
+- **Sourcing Strategy Agent:** recommends search channels, target company types, adjacent titles, and Boolean or semantic search strategies after recruiter approval.
+- **Candidate Discovery Agent:** identifies potential candidate profiles only after the role has passed readiness and human approval gates.
+- **Candidate Fit Agent:** compares candidate evidence against the approved sourcing brief using explainable criteria, not protected traits or unsupported proxies.
+- **Outreach Drafting Agent:** drafts recruiter-reviewed outreach messages based on the approved brief and candidate-relevant evidence.
+- **Calibration and Evaluation Agent:** monitors extraction quality, field-level precision and recall, readiness-score calibration, state regression, and unsupported claims.
+- **ATS/CRM Integration:** integrates with recruiting systems only after governance, privacy, consent, and audit requirements are defined.
+- **Statistical Calibration:** calibrates readiness thresholds and launch estimates using historical recruiting outcomes such as time to shortlist, qualified-candidate rate, response rate, and hiring-manager rejection reasons.
+
+The long-term vision is not to replace recruiters, but to give them an auditable agent ecosystem that improves intake quality, sourcing consistency, and hiring-manager alignment while preserving human control.
 - Add optional integrations with applicant tracking systems after the readiness and approval workflow is validated.
 - Extend downstream modules for sourcing, screening, or matching only after recruiter approval and governance requirements are defined.
